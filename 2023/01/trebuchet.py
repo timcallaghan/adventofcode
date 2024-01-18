@@ -49,7 +49,7 @@ should_log = False
 part_1_digits = []
 part_2_digits = []
 
-file_name = "input"
+file_name = "input_small"
 with open(file_name, encoding="utf-8") as f:
     for line in f:
         digit_1 = extract_calibration(line)
